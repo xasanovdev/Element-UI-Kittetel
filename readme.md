@@ -44,6 +44,7 @@
 ### Change Place Icon
 
 - Option to reverse to the `.button-content` wrapper
+  - reverse
 
 ### Border
 
