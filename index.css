@@ -1,0 +1,342 @@
+.button-primary {
+  display: inline-block;
+  outline: none;
+  background-color: white;
+  border-radius: 4px;
+  font-size: 14px;
+  border: none;
+}
+.button-pain-primary {
+  display: inline-block;
+  outline: none;
+  background-color: white;
+  border-radius: 4px;
+  font-size: 14px;
+}
+button.rounded-full {
+  border-radius: 22222px;
+}
+button.not-rounded {
+  border-radius: 0px;
+}
+button.border-none {
+  border: none;
+}
+button.large {
+  padding: 9px 20px;
+}
+button.medium {
+  padding: 7px 20px;
+}
+button.small {
+  font-size: 12px;
+  padding: 7px 10px;
+}
+button.small svg {
+  width: 12px;
+  height: 12px;
+}
+button.mini {
+  font-size: 12px;
+  padding: 5px 10px;
+}
+button.mini svg {
+  width: 10px;
+  height: 10px;
+}
+.button-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 2px;
+}
+.button-content.reverse {
+  flex-direction: row-reverse;
+}
+/* Primary White Version */
+.button-primary.white {
+  color: #606266;
+  background-color: #fff;
+}
+.button-primary.white:disabled {
+  opacity: 0.5;
+}
+.button-primary.white:hover {
+  background-color: #fff;
+  color: #409eff;
+}
+.button-primary.white:active {
+  color: #409eff;
+}
+.button-primary.white svg path {
+  stroke: #606266;
+}
+.button-primary.white:hover svg path {
+  stroke: #409eff;
+}
+
+/* Primary Pain white Version */
+.button-pain-primary.white {
+  color: #606266;
+  border: 1px solid #dcdfe6;
+  background-color: #fff;
+}
+
+.button-pain-primary.white svg path {
+  stroke: #606266;
+}
+
+.button-pain-primary.white:hover {
+  color: #409eff;
+  background-color: #fff;
+  border: 1px solid #66b1ff;
+}
+
+.button-pain-primary.white:hover svg path {
+  stroke: #409eff;
+}
+
+.button-pain-primary.white:disabled {
+  opacity: 0.5;
+}
+
+.button-pain-primary.white:active {
+  color: #409eff;
+  background-color: white;
+  border: 1px solid #409eff;
+}
+/* Primary White Version */
+.button-primary.blue {
+  color: white;
+  background-color: #409eff;
+}
+.button-primary.blue:disabled {
+  opacity: 0.5;
+}
+.button-primary.blue:hover {
+  background-color: #66b1ff;
+}
+.button-primary.blue:active {
+  background-color: #3a8ee6;
+}
+/* Primary Pain Blue Version */
+.button-pain-primary.blue {
+  color: #409eff;
+  border: 1px solid #409eff;
+  background-color: #ecf5ff;
+}
+.button-primary.blue svg path {
+  stroke: #fff;
+}
+
+.button-pain-primary.blue svg path {
+  stroke: #409eff;
+}
+
+.button-pain-primary.blue:hover {
+  color: white;
+  background-color: #66b1ff;
+  border: 1px solid #66b1ff;
+}
+
+.button-pain-primary.blue:hover svg path {
+  stroke: white;
+}
+
+.button-pain-primary.blue:disabled {
+  opacity: 0.5;
+}
+
+.button-pain-primary.blue:active {
+  color: white;
+  background-color: #3a8ee6;
+  border: 1px solid #3a8ee6;
+}
+
+/* Green Version */
+.button-primary.green {
+  color: white;
+  background-color: #67c23a;
+}
+.button-primary.green:disabled {
+  opacity: 0.5;
+}
+.button-primary.green:hover {
+  background-color: #85ce61;
+}
+.button-primary.green:active {
+  background-color: #5daf34;
+}
+
+/* Primary Pain green Version */
+.button-pain-primary.green {
+  color: #67c23a;
+  border: 1px solid #67c23a;
+  background-color: #f0f9eb;
+}
+.button-primary.green svg path {
+  stroke: #fff;
+}
+.button-pain-primary.green svg path {
+  stroke: #67c23a;
+}
+
+.button-pain-primary.green:hover {
+  color: white;
+  background-color: #85ce61;
+  border: 1px solid #85ce61;
+}
+
+.button-pain-primary.green:hover svg path {
+  stroke: white;
+}
+
+.button-pain-primary.green:disabled {
+  opacity: 0.5;
+}
+
+.button-pain-primary.green:active {
+  color: white;
+  background-color: #5daf34;
+  border: 1px solid #5daf34;
+}
+/* Gray Version */
+.button-primary.gray {
+  color: white;
+  background-color: #909399;
+}
+.button-primary.gray:disabled {
+  opacity: 0.5;
+}
+.button-primary.gray:hover {
+  background-color: #a6a9ad;
+}
+.button-primary.gray:active {
+  background-color: #82848a;
+}
+
+/* Primary Pain gray Version */
+.button-pain-primary.gray {
+  color: #909399;
+  border: 1px solid #909399;
+  background-color: #f4f4f5;
+}
+.button-primary.gray svg path {
+  stroke: #fff;
+}
+.button-pain-primary.gray svg path {
+  stroke: #909399;
+}
+
+.button-pain-primary.gray:hover {
+  color: white;
+  background-color: #a6a9ad;
+  border: 1px solid #a6a9ad;
+}
+
+.button-pain-primary.gray:hover svg path {
+  stroke: white;
+}
+
+.button-pain-primary.gray:disabled {
+  opacity: 0.5;
+}
+
+.button-pain-primary.gray:active {
+  color: white;
+  background-color: #82848a;
+  border: 1px solid #82848a;
+}
+/* Orange Version */
+.button-primary.orange {
+  color: white;
+  background-color: #e6a23c;
+}
+.button-primary.orange:disabled {
+  opacity: 0.5;
+}
+.button-primary.orange:hover {
+  background-color: #ebb563;
+}
+.button-primary.orange:active {
+  background-color: #cf9236;
+}
+/* Primary Pain orange Version */
+.button-pain-primary.orange {
+  color: #e6a23c;
+  border: 1px solid #e6a23c;
+  background-color: #fdf6ec;
+}
+.button-primary.orange svg path {
+  stroke: #fff;
+}
+.button-pain-primary.orange svg path {
+  stroke: #e6a23c;
+}
+
+.button-pain-primary.orange:hover {
+  color: white;
+  background-color: #ebb563;
+  border: 1px solid #ebb563;
+}
+
+.button-pain-primary.orange:hover svg path {
+  stroke: white;
+}
+
+.button-pain-primary.orange:disabled {
+  opacity: 0.5;
+}
+
+.button-pain-primary.orange:active {
+  color: white;
+  background-color: #cf9236;
+  border: 1px solid #cf9236;
+}
+/* Red Version */
+.button-primary.red {
+  color: white;
+  background-color: #f56c6c;
+}
+.button-primary.red svg path {
+  stroke: #fff;
+}
+.button-primary.red:disabled {
+  opacity: 0.5;
+}
+.button-primary.red:hover {
+  background-color: #f78989;
+}
+.button-primary.red:active {
+  background-color: #dc6161;
+}
+/* Primary Pain Red Version */
+.button-pain-primary.red {
+  color: #f56c6c;
+  border: 1px solid #f56c6c;
+  background-color: #fef0f0;
+}
+.button-pain-primary.red svg path {
+  stroke: #f56c6c;
+}
+
+.button-pain-primary.red:hover {
+  color: white;
+  background-color: #f78989;
+  border: 1px solid #f78989;
+}
+
+.button-pain-primary.red:hover svg path {
+  stroke: white;
+}
+
+.button-pain-primary.red:disabled {
+  opacity: 0.5;
+}
+
+.button-pain-primary.red:active {
+  color: white;
+  background-color: #dc6161;
+  border: 1px solid #dc6161;
+}
