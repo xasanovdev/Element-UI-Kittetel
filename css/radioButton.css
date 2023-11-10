@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  margin-top: 40px;
+}
+form ol {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+form ol li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+form ol li span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+form input {
+  cursor: pointer;
+}
+form .none-radio {
+  display: none;
+}
+form .input-radio:checked {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border: 5px solid var(--blue-color);
+  border-radius:1000px;
+}
+form .input-radio:checked ~ .base-label {
+  color: var(--blue-color);
+}
+form .input-radio:checked + .border-radio {
+  border: 1px solid var(--blue-color);
+}
+form input:disabled + label {
+  color: var(--placeholder-color);
+}
+form input:disabled:checked + label {
+  background-color: var(--placeholder-color);
+}
+form label {
+  cursor: pointer;
+}
+form .label {
+  padding: 9px 20px;
+  color: var(--text-regular-color);
+}
+#example1:checked ~ .label1,
+#example2:checked ~ .label2,
+#example3:checked ~ .label3,
+#example4:checked ~ .label4 {
+  background-color: var(--blue-color);
+  color: white;
+}

@@ -1,0 +1,73 @@
+
+form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px ;
+}
+form ol {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+form ol li div:not(:first-child) {
+  margin-top: 10px;
+}
+
+.input__content {
+  max-width: 204px;
+}
+.input.md {
+  padding: 7px 28px 7px 12px;
+  font-size: 14px;
+}
+.input.sm {
+  padding: 5px 28px 5px 12px;
+  font-size: 14px;
+}
+.input {
+  border-radius: 4px;
+  border: 1px solid;
+  padding: 9px 28px 9px 12px;
+  width: 100%;
+  color: var(--text-regular-color);
+  outline: none;
+  border: 1px solid var(--border-color);
+}
+.input::placeholder {
+  color: var(--placeholder-color);
+}
+input:focus {
+  border: 1px solid var(--blue-color);
+}
+input:disabled {
+  background-color: var(--bg-color);
+  pointer-events: none;
+}
+.input__content {
+  position: relative;
+}
+
+.input__content::before {
+  content: '';
+  cursor: pointer;
+  position: absolute;
+  right: 12px;
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  top: 30%;
+  background-position: 50%;
+  background-image: url('../circle-close.svg');
+}
+
+.input__content.number::before {
+  content: '0/10';
+  font-size: 12px;
+  background-image: none;
+  color: var(--text-secondary-color);
+  right: 22px;
+}
+.input.red:focus {
+  border: 1px solid var(--red-color);
+}
