@@ -33,9 +33,30 @@ form .input-radio:checked {
   width: 14px;
   height: 14px;
   border: 5px solid var(--blue-color);
-  border-radius:1000px;
+  border-radius: 1000px;
 }
-form .input-radio:checked ~ .base-label {
+form .input-checkbox {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border: 1px solid var(--placeholder-color);
+}
+form .input-radio {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 1000px;
+  border: 1px solid var(--placeholder-color);
+}
+form .input-checkbox:checked {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border: 5px solid var(--blue-color);
+}
+form .input-radio:checked ~ .base-label,
+form .input-checkbox:checked ~ .base-label
+  {
   color: var(--blue-color);
 }
 form .input-radio:checked + .border-radio {
