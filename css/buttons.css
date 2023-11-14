@@ -55,13 +55,6 @@ button.mini svg {
   width: 10px;
   height: 10px;
 }
-.button-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  column-gap: 2px;
-}
 .button-content.reverse {
   flex-direction: row-reverse;
 }

@@ -12,11 +12,7 @@ form ol {
   flex-direction: column;
   gap: 40px;
 }
-form ol li {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
+
 form ol li span {
   display: flex;
   align-items: center;
@@ -55,8 +51,7 @@ form .input-checkbox:checked {
   border: 5px solid var(--blue-color);
 }
 form .input-radio:checked ~ .base-label,
-form .input-checkbox:checked ~ .base-label
-  {
+form .input-checkbox:checked ~ .base-label {
   color: var(--blue-color);
 }
 form .input-radio:checked + .border-radio {
@@ -72,13 +67,40 @@ form label {
   cursor: pointer;
 }
 form .label {
-  padding: 9px 20px;
+  padding: 8px 20px;
   color: var(--text-regular-color);
 }
+form .label.large {
+  padding: 10px 20px;
+}
+form .label.small {
+  padding: 6px 20px;
+}
+form .label.extra-small {
+  padding: 4px 20px;
+}
+
 #example1:checked ~ .label1,
 #example2:checked ~ .label2,
 #example3:checked ~ .label3,
 #example4:checked ~ .label4 {
   background-color: var(--blue-color);
   color: white;
+}
+
+form ol li {
+  display: flex;
+  align-items: center;
+}
+.label__btn {
+  border: 1px solid #e5e5e5;
+}
+
+.list {
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+}
+.list__radio {
+  gap: 10px;
 }
